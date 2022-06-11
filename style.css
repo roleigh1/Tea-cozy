@@ -32,40 +32,72 @@ nav{
 }
 #inventory {
   position: absolute;
-  top:150%;
+  top:140%;
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
 }
-#berry {
+.teaimg {
   width: 300px;
   height: 200px;
   
 
 }
-#rum {
-  width: 300px;
-  height: 200px; 
-  
-  
-}
-#donut {
-  width: 300px;
-  height: 200px;
- 
-}
-#myrtle {
-  width: 300px;
-  height: 200px;
 
-
-}
-#bedford {
-  width: 300px;
-  height: 200px;
-  
-}
 figcaption {
   text-align: center;
   opacity: 0.7;
+}
+
+#locations {
+  height: 600px;
+  width: 1000px; 
+  position: absolute;
+  top: 220%;
+  left: 18%;
+ 
+}
+#headyloc {
+   padding-top: 105%;
+  
+}
+#downtown {
+  background-color:black;
+  width: 300px; 
+  position: absolute;
+  left: 19%; 
+  line-height: 70px; 
+  
+}
+ul{
+  list-style-type: none;
+  opacity: 0,7;
+
+}
+#bayside {
+  background-color:black;
+  width: 300px; 
+  position: absolute;
+  left: 41%; 
+  line-height: 70px; 
+  
+}
+#oakdale {
+  background-color:black;
+  width: 300px; 
+  position: absolute;
+  left: 63%; 
+  line-height: 70px; 
+}
+#teacozy {
+  padding-top: 32%;
+}
+#mail {
+  text-align: center;
+  opacity: 0.7;
+}
+#footer {
+  opacity: 0.7;
+  position:absolute; 
+  left: 20px; 
 }
